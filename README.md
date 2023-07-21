@@ -31,8 +31,11 @@ The library contains a very basic maze viewer, to display a JFrame displaying th
     frame.setPanelMaze(new MazeVisualizator(generator.getMaze()));
 
 To get a JPanel displaying the maze:
+
 `    new MazeVisualizator(generator.getMaze())`
+
 It is advisable to initialize the JFrame/Jpanel displaying the labyrinth AFTER generating the labyrinth, in case the labyrinth is generated first after initialization it is necessary to redraw the components, (probably you will not need to set the map again, being that the reference to the latter is not modified by the library)
+    
     revalidate();
     repaint();
 
