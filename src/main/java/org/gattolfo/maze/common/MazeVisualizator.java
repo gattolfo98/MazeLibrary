@@ -1,6 +1,5 @@
 package org.gattolfo.maze.common;
 
-import org.gattolfo.maze.algorithms.MazeGenerator;
 
 import javax.swing.*;
 import java.awt.*;

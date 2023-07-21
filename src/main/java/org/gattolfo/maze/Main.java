@@ -1,6 +1,5 @@
 package org.gattolfo.maze;
 
-import org.gattolfo.maze.algorithms.BacktrackingAlgorithm;
 import org.gattolfo.maze.algorithms.EllerAlgorithm;
 import org.gattolfo.maze.algorithms.MazeGenerator;
 import org.gattolfo.maze.common.Cell;

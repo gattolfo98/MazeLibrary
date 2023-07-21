@@ -2,11 +2,8 @@ package org.gattolfo.maze.algorithms;
 
 import org.gattolfo.maze.common.Cell;
 
-import java.beans.PropertyChangeListener;
-import java.beans.PropertyChangeSupport;
 
 public abstract class MazeGenerator{
-    public static final String MAZE_STATE_UP = "mapMaze";
     protected int height;
     protected int width;
 
