@@ -20,6 +20,6 @@ Done!! you have your maze ready to use!
 
 ##### Object of type Cell??
 
-
+To represent the labyrinth, an array of objects of type Cell is used, the Cell class represents a square of a labyrinth, therefore it has 4 walls, the lack of a wall REQUIRES that the wall of the cell connected to it be removed, this represents an open passage between two cells
 
 
