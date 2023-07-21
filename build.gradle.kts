@@ -5,6 +5,15 @@ plugins {
 group = "org.gattolfo.maze"
 version = "1.0-SNAPSHOT"
 
+tasks {
+    jar {
+        manifest {
+            attributes["Main-Class"] = "org.gattolfo.maze.Main"
+        }
+    }
+}
+
+
 repositories {
     mavenCentral()
 }
