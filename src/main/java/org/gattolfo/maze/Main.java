@@ -20,8 +20,5 @@ public class Main {
         frame.setPanelMaze(new MazeVisualizator(generator.getMaze()));
     }
 
-    public void fake(){
-
-    }
 }
 
