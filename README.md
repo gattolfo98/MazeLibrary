@@ -14,7 +14,7 @@ A simple library for generating mazes, the algorithms are few but will be added 
 ` MazeGenerator generator;`
 - Initialize the variable with an algorithm, for example:
   
-`generator = new EllerAlgorithm(20,20);`
+`generator = new BacktrackingAlgorithm(20,20);`
 - Start the generation, (the method will return you an array of objects of type Cell once it's finished)
   
 `Cell[][] map = generator.generateMaze();`
